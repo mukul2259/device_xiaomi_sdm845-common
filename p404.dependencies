@@ -1,0 +1,14 @@
+[
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
+    "branch": "lineage-17.1"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "the-muppets/proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi"
+    "branch": "lineage-17.1"
+  }
+]
