@@ -5,3 +5,9 @@ allow system_app sysfs_fastcharge:file { open read getattr write };
 # FM Radio
 allow system_app vendor_default_prop:file { read };
 allow system_app vendor_default_prop:file { open };
+
+# Battery Health
+allow system_app sysfs_battery_supply:dir { search };
+allow system_app sysfs_battery_supply:file { read };
+allow system_app sysfs_battery_supply:file { open };
+allow system_app sysfs_battery_supply:file { getattr };
