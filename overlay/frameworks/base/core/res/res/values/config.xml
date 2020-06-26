@@ -403,4 +403,11 @@
 
     <!-- Indicates that wifi link probing is supported on this device -->
     <bool translatable="false" name="config_wifi_link_probing_supported">true</bool>
+
+    <!-- Indicate available ColorDisplayManager.COLOR_MODE_xxx. -->
+    <integer-array name="config_availableColorModes">
+        <item>0</item> <!-- COLOR_MODE_NATURAL -->
+        <item>1</item> <!-- COLOR_MODE_BOOSTED -->
+        <item>3</item> <!-- COLOR_MODE_AUTOMATIC -->
+    </integer-array>
 </resources>
