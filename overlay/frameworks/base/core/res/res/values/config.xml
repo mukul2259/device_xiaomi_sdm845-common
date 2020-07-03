@@ -409,4 +409,7 @@
 
     <!-- Flag indicating whether we should enable smart battery. -->
     <bool name="config_smart_battery_available">true</bool>
+
+    <!-- Indicates that wifi link probing is supported on this device -->
+    <bool translatable="false" name="config_wifi_link_probing_supported">true</bool>
 </resources>
