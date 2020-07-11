@@ -1,3 +1,7 @@
 # PocoParts
 allow system_app sysfs_fcharge:file { open read getattr write };
 allow system_app sysfs_fastcharge:file { open read getattr write };
+
+# FM Radio
+allow system_app vendor_default_prop:file { read };
+allow system_app vendor_default_prop:file { open };
