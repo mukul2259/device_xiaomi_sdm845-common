@@ -6,9 +6,9 @@
     "branch": "lineage-17.1"
   },
   {
-    "remote": "gitlab",
-    "repository": "the-muppets/proprietary_vendor_xiaomi",
+    "remote": "github",
+    "repository": "mukul2259/vendor_xiaomi",
     "target_path": "vendor/xiaomi"
-    "branch": "lineage-17.1"
+    "branch": "ten"
   }
 ]
